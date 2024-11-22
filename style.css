@@ -1,0 +1,148 @@
+body {
+    font-family: Roboto, 'Times New Roman', sans-serif;
+    margin: 0;
+}
+
+.container1 {
+    background: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    
+    padding-bottom: 30px;
+}
+
+.left {
+display: flex;
+flex-direction: column;
+width: 400px;
+padding: 16px;
+}
+
+.right {
+display: flex;
+flex-direction: column;
+
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3882f6;
+    color: white;
+    border-radius: 10px;
+    padding: 30px;
+    width: 900px;
+    margin: 30px auto;
+    
+}
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.header {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.textmain {
+font-size: 18px;
+color: #e5e7eb;
+margin-top: 10px;
+}
+
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+
+
+}
+
+.card {
+    background: white;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+button.tickets {
+    width: 200px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+button {
+    background: #3882f6;
+    color: #e5e7eb;
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
+
+p {
+    padding: auto;
+}
+    
+img {
+    height: 300px;
+    width: 600px;
+}
+
+.links {
+    padding-bottom: 20px;
+} 
+
+.text1 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.text2 {
+    font-size: 36px;
+    font-family: light italic;
+    color: #1f2937;
+    text-align: center;
+    background: #e5e7eb;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.text3 {
+    font-size: 20px;
+
+}
+
+.signup {
+    border: 2px solid white;
+    color: #f9faf8;
+    width: 150px;
+
+}
